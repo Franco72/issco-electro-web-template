@@ -1,0 +1,670 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./index.css" />
+    <title>Electro</title>
+  </head>
+  <body>
+    <div class="contact-and-account">
+      <div class="contact-and-account__content">
+        <p><i class="fa-solid fa-phone"></i>+021-95-51-84</p>
+        <p><i class="fa-regular fa-envelope"></i>email@email.com</p>
+        <p><i class="fa-solid fa-location-pin"></i>1734 Stonecoal Road</p>
+      </div>
+      <div class="contact-and-account_account">
+        <p><i class="fa-solid fa-dollar-sign"></i> USD</p>
+        <p><i class="fa-regular fa-user"></i>My account</p>
+      </div>
+    </div>
+    <nav class="nav">
+      <img src="./img/logo.png" alt="electro-logo" />
+      <form class="nav__form-search">
+        <div class="dropdown">
+          <button
+            class="btn btn-secondary dropdown-toggle form-search__dropdown"
+            type="button"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >
+            All Categories
+          </button>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">1</a></li>
+            <li><a class="dropdown-item" href="#">2</a></li>
+            <li><a class="dropdown-item" href="#">3</a></li>
+          </ul>
+        </div>
+        <div>
+          <input
+            type="text"
+            class="form-control form-search__input"
+            placeholder="Search"
+          />
+        </div>
+        <div class="">
+          <button type="submit" class="btn btn-primary form-search__btn">
+            Search
+          </button>
+        </div>
+      </form>
+      <div class="nav__items">
+        <p><i class="fa-regular fa-heart"></i><Your>Your Wishlist</span></p>
+        <p><i class="fa-solid fa-cart-shopping"> </i>Your Cart</p>
+        <div class="dropdown">
+          <button
+            class="nav__items__dropdown dropdown-toggle"
+            type="button"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >
+            Menu
+          </button>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Home</a></li>
+            <li><a class="dropdown-item" href="#">Hot deals</a></li>
+            <li><a class="dropdown-item" href="#">Categories</a></li>
+            <li><a class="dropdown-item" href="#">Laptops</a></li>
+            <li><a class="dropdown-item" href="#">Smarthpones</a></li>
+            <li><a class="dropdown-item" href="#">Cameras</a></li>
+            <li><a class="dropdown-item" href="#">Accesories</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <section class="collections">
+      <div class="collections__item">
+        <img src="./img/shop01.png" alt="" />
+      </div>
+      <div class="collections__item">
+        <img src="./img/shop03.png" alt="" />
+      </div>
+      <div class="collections__item">
+        <img src="./img/shop02.png" alt="" />
+      </div>
+    </section>
+    <section class="new-products">
+      <h2>NEW PRODUCTS</h2>
+      <div class="container new-products__container">
+        <div class="card" style="width: 18rem">
+          <img src="./img/product-1.png" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Notebook X515EA 15.6</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the bulk of
+              the card's content.
+            </p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item new-products__price">$995.00</li>
+            <li class="list-group-item new-products__price">
+              <!-- Button trigger modal -->
+              <button
+                type="button"
+                class="btn btn-primary new-products__btn"
+                data-bs-toggle="modal"
+                data-bs-target="#staticBackdrop"
+              >
+                View product details
+              </button>
+        
+              <!-- Modal -->
+              <div
+                class="modal fade"
+                id="staticBackdrop"
+                data-bs-backdrop="static"
+                data-bs-keyboard="false"
+                tabindex="-1"
+                aria-labelledby="staticBackdropLabel"
+                aria-hidden="true"
+              >
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5" id="staticBackdropLabel">
+                          Notebook X515EA 15.6
+                      </h1>
+                      <button
+                        type="button"
+                        class="btn-close"
+                        data-bs-dismiss="modal"
+                        aria-label="Close"
+                      ></button>
+                    </div>
+                    <div class="modal-body new-products__modal">
+                      <div class="card" style="width: 18rem">
+                        <ul class="list-group list-group-flush">
+                          <li class="list-group-item">
+                              <h5>General characteristics</h5>
+                              <p>
+                                Brand: Asus
+                                <hr>
+                                Model: X515EA
+                                <hr>
+                                Colour: Grey
+                                <hr>
+                                Detailed model: X515EA-BQ259
+                                <hr>
+                                RAM memory: 8 GB
+                                <hr>
+                                RAM Type: DDR4
+                              </p>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="modal-footer">
+                      <button
+                        type="button"
+                        class="btn btn-secondary"
+                        data-bs-dismiss="modal"
+                      >
+                        Close
+                      </button>
+                      <button type="button" class="btn btn-primary new-products__modal__btn"></i>Buy</i></button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      
+      
+        <div class="card" style="width: 18rem">
+          <img src="./img/product-2.png" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Tablet 10.4 Samsung P613</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the bulk of
+              the card's content.
+            </p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item new-products__price">$930.00</li>
+            <li class="list-group-item new-products__price">
+              <!-- Button trigger modal -->
+              <button
+                type="button"
+                class="btn btn-primary new-products__btn"
+                data-bs-toggle="modal"
+                data-bs-target="#staticBackdrop"
+              >
+                View product details
+              </button>
+        
+              <!-- Modal -->
+              <div
+                class="modal fade"
+                id="staticBackdrop"
+                data-bs-backdrop="static"
+                data-bs-keyboard="false"
+                tabindex="-1"
+                aria-labelledby="staticBackdropLabel"
+                aria-hidden="true"
+              >
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5" id="staticBackdropLabel">
+                          Tablet 10.4 Samsung P613
+                      </h1>
+                      <button
+                        type="button"
+                        class="btn-close"
+                        data-bs-dismiss="modal"
+                        aria-label="Close"
+                      ></button>
+                    </div>
+                    <div class="modal-body new-products__modal">
+                      <div class="card" style="width: 18rem">
+                        <ul class="list-group list-group-flush">
+                          <li class="list-group-item">
+                              <h5>General characteristics</h5>
+                                  <p>
+                                  Brand: Samsung
+                                  <hr>
+                                  Line: Galaxy Tab
+                                  <hr>
+                                  Model: P613 Galaxy Tab S6 Lite
+                                  <hr>
+                                  Version: 2022
+                                  <hr>
+                                  Colour: Grey
+                                  </p>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="modal-footer">
+                      <button
+                        type="button"
+                        class="btn btn-secondary"
+                        data-bs-dismiss="modal"
+                      >
+                        Close
+                      </button>
+                      <button type="button" class="btn btn-primary new-products__modal__btn"></i>Buy</i></button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <!-- ---- -->
+        <div class="card" style="width: 18rem">
+          <img src="./img/product-3.png" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Headphones AKG Blackshark K52</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the bulk of
+              the card's content.
+            </p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item new-products__price">$870.00</li>
+            <li class="list-group-item new-products__price">
+              <!-- Button trigger modal -->
+              <button
+                type="button"
+                class="btn btn-primary new-products__btn"
+                data-bs-toggle="modal"
+                data-bs-target="#staticBackdrop"
+              >
+                View product details
+              </button>
+        
+              <!-- Modal -->
+              <div
+                class="modal fade"
+                id="staticBackdrop"
+                data-bs-backdrop="static"
+                data-bs-keyboard="false"
+                tabindex="-1"
+                aria-labelledby="staticBackdropLabel"
+                aria-hidden="true"
+              >
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5" id="staticBackdropLabel">
+                          Notebook X515EA 15.6
+                      </h1>
+                      <button
+                        type="button"
+                        class="btn-close"
+                        data-bs-dismiss="modal"
+                        aria-label="Close"
+                      ></button>
+                    </div>
+                    <div class="modal-body new-products__modal">
+                      <div class="card" style="width: 18rem">
+                        <ul class="list-group list-group-flush">
+                          <li class="list-group-item">
+                              <h5>General characteristics</h5>
+                              <p>
+                                Brand: Asus
+                                <hr>
+                                Model: X515EA
+                                <hr>
+                                Colour: Grey
+                                <hr>
+                                Detailed model: X515EA-BQ259
+                                <hr>
+                                RAM memory: 8 GB
+                                <hr>
+                                RAM Type: DDR4
+                              </p>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="modal-footer">
+                      <button
+                        type="button"
+                        class="btn btn-secondary"
+                        data-bs-dismiss="modal"
+                      >
+                        Close
+                      </button>
+                      <button type="button" class="btn btn-primary new-products__modal__btn"></i>Buy</i></button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="card" style="width: 18rem">
+          <img src="./img/product-4.png" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Xiaomi Redmi 10c Dual Sim 128gb</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the bulk of
+              the card's content.
+            </p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item new-products__price">$560.00</li>
+            <li class="list-group-item new-products__price">
+              <!-- Button trigger modal -->
+              <button
+                type="button"
+                class="btn btn-primary new-products__btn"
+                data-bs-toggle="modal"
+                data-bs-target="#staticBackdrop"
+              >
+                View product details
+              </button>
+        
+              <!-- Modal -->
+              <div
+                class="modal fade"
+                id="staticBackdrop"
+                data-bs-backdrop="static"
+                data-bs-keyboard="false"
+                tabindex="-1"
+                aria-labelledby="staticBackdropLabel"
+                aria-hidden="true"
+              >
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5" id="staticBackdropLabel">
+                          Notebook X515EA 15.6
+                      </h1>
+                      <button
+                        type="button"
+                        class="btn-close"
+                        data-bs-dismiss="modal"
+                        aria-label="Close"
+                      ></button>
+                    </div>
+                    <div class="modal-body new-products__modal">
+                      <div class="card" style="width: 18rem">
+                        <ul class="list-group list-group-flush">
+                          <li class="list-group-item">
+                              <h5>General characteristics</h5>
+                              <p>
+                                Brand: Asus
+                                <hr>
+                                Model: X515EA
+                                <hr>
+                                Colour: Grey
+                                <hr>
+                                Detailed model: X515EA-BQ259
+                                <hr>
+                                RAM memory: 8 GB
+                                <hr>
+                                RAM Type: DDR4
+                              </p>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="modal-footer">
+                      <button
+                        type="button"
+                        class="btn btn-secondary"
+                        data-bs-dismiss="modal"
+                      >
+                        Close
+                      </button>
+                      <button type="button" class="btn btn-primary new-products__modal__btn"></i>Buy</i></button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="card" style="width: 18rem">
+          <img src="./img/product-5.png" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Camera Semireflex Sony H300</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the bulk of
+              the card's content.
+            </p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item new-products__price">$260.00</li>
+            <li class="list-group-item new-products__price">
+              <!-- Button trigger modal -->
+              <button
+                type="button"
+                class="btn btn-primary new-products__btn"
+                data-bs-toggle="modal"
+                data-bs-target="#staticBackdrop"
+              >
+                View product details
+              </button>
+        
+              <!-- Modal -->
+              <div
+                class="modal fade"
+                id="staticBackdrop"
+                data-bs-backdrop="static"
+                data-bs-keyboard="false"
+                tabindex="-1"
+                aria-labelledby="staticBackdropLabel"
+                aria-hidden="true"
+              >
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5" id="staticBackdropLabel">
+                          Notebook X515EA 15.6
+                      </h1>
+                      <button
+                        type="button"
+                        class="btn-close"
+                        data-bs-dismiss="modal"
+                        aria-label="Close"
+                      ></button>
+                    </div>
+                    <div class="modal-body new-products__modal">
+                      <div class="card" style="width: 18rem">
+                        <ul class="list-group list-group-flush">
+                          <li class="list-group-item">
+                              <h5>General characteristics</h5>
+                              <p>
+                                Brand: Asus
+                                <hr>
+                                Model: X515EA
+                                <hr>
+                                Colour: Grey
+                                <hr>
+                                Detailed model: X515EA-BQ259
+                                <hr>
+                                RAM memory: 8 GB
+                                <hr>
+                                RAM Type: DDR4
+                              </p>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="modal-footer">
+                      <button
+                        type="button"
+                        class="btn btn-secondary"
+                        data-bs-dismiss="modal"
+                      >
+                        Close
+                      </button>
+                      <button type="button" class="btn btn-primary new-products__modal__btn"></i>Buy</i></button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="card" style="width: 18rem">
+          <img src="./img/product-6.png" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Xiaomi Mi Headphones Basic HSER02JY</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the bulk of
+              the card's content.
+            </p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item new-products__price">$860.00</li>
+            <li class="list-group-item new-products__price">
+              <!-- Button trigger modal -->
+              <button
+                type="button"
+                class="btn btn-primary new-products__btn"
+                data-bs-toggle="modal"
+                data-bs-target="#staticBackdrop"
+              >
+                View product details
+              </button>
+        
+              <!-- Modal -->
+              <div
+                class="modal fade"
+                id="staticBackdrop"
+                data-bs-backdrop="static"
+                data-bs-keyboard="false"
+                tabindex="-1"
+                aria-labelledby="staticBackdropLabel"
+                aria-hidden="true"
+              >
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5" id="staticBackdropLabel">
+                          Notebook X515EA 15.6
+                      </h1>
+                      <button
+                        type="button"
+                        class="btn-close"
+                        data-bs-dismiss="modal"
+                        aria-label="Close"
+                      ></button>
+                    </div>
+                    <div class="modal-body new-products__modal">
+                      <div class="card" style="width: 18rem">
+                        <ul class="list-group list-group-flush">
+                          <li class="list-group-item">
+                              <h5>General characteristics</h5>
+                              <p>
+                                Brand: Asus
+                                <hr>
+                                Model: X515EA
+                                <hr>
+                                Colour: Grey
+                                <hr>
+                                Detailed model: X515EA-BQ259
+                                <hr>
+                                RAM memory: 8 GB
+                                <hr>
+                                RAM Type: DDR4
+                              </p>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="modal-footer">
+                      <button
+                        type="button"
+                        class="btn btn-secondary"
+                        data-bs-dismiss="modal"
+                      >
+                        Close
+                      </button>
+                      <button type="button" class="btn btn-primary new-products__modal__btn"></i>Buy</i></button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      
+      
+      
+      </div>
+    </section>
+    <section class="newsletter">
+      <h3>Sign up for the <span>NEWSLETTER</span></h3>
+      <form class="newsletter__form">
+        <input type="email" placeholder="your@email.com" />
+        <button>Subscribe</button>
+      </form>
+      <div class="newsletter__social">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-solid fa-envelope"></i>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="footer__content">
+        <div class="footer__item">
+          <h3>ABOUT US</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+            eiusmod tempor incididunt ut.
+          </p>
+          <p class="footer__item__paragraph"><i class="fa-solid fa-location-pin"></i>1734 Stonecoal Road</p>
+          <p class="footer__item__paragraph"><i class="fa-solid fa-phone"></i>+021-95-51-84</p>
+          <p class="footer__item__paragraph"><i class="fa-regular fa-envelope"></i>email@email.com</p>
+        </div>
+        <div class="footer__item">
+          <h3>CATEGORIES</h3>
+          <ul>
+            <li>Hot deals</li>
+            <li>Laptops</li>
+            <li>Smarthpones</li>
+            <li>Cameras</li>
+            <li>Accesories</li>
+          </ul>
+        </div>
+        <div class="footer__item">
+          <h3>INFORMATION</h3>
+          <ul>
+            <li>About Us</li>
+            <li>Contact Us</li>
+            <li>Privacy Policy</li>
+            <li>Orders and Returns</li>
+            <li>Terms & Conditions</li>
+          </ul>
+        </div>
+        <div class="footer__item">
+          <h3>SERVICE</h3>
+          <ul>
+            <li>My Account</li>
+            <li>View Cart</li>
+            <li>Wishlist</li>
+            <li>Track My Order</li>
+            <li>Help</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__copy">
+        <h3>Copyright ©2024 All rights reserved</h3>
+      </div>
+    </footer>
+    <script
+      src="https://kit.fontawesome.com/eafaa20622.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
